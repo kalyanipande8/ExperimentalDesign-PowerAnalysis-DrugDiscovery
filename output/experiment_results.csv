@@ -1,0 +1,25 @@
+id,name,assay_family,design_type,effect_size_desc,effect_size,k_groups,required_n_per_group,required_total_n,achieved_power,naive_n_per_group,naive_total_n,unit_cost_usd,naive_cost_usd,actual_cost_usd,cost_saved_usd,cost_reduction_pct
+1,"Kinase X enzyme inhibition, lead cmpd vs DMSO",Enzyme inhibition,t_test,"Cohen's d, % inhibition at IC80 dose",0.85,2,23,46,0.8049,100,200,42,8400,1932,6468,77.0
+2,"Kinase X inhibition, backup series vs DMSO",Enzyme inhibition,t_test,Cohen's d,0.55,2,53,106,0.801,100,200,42,8400,4452,3948,47.0
+3,"GPCR-7 receptor binding, antagonist vs vehicle",Receptor binding,t_test,"Cohen's d, %-displacement",1.1,2,15,30,0.8284,100,200,58,11600,1740,9860,85.0
+4,"Cell viability, cytotoxicity screen hit vs control",Cell viability,t_test,"Cohen's d, % viability",0.4,2,100,200,0.8036,100,200,18,3600,3600,0,0.0
+5,"Cell viability, weak cytotoxic analog vs control",Cell viability,t_test,Cohen's d,0.3,2,176,352,0.8014,100,200,18,3600,6336,-2736,-76.0
+6,"In vivo tumor volume, treated vs vehicle (xenograft)",In vivo efficacy,t_test,"Cohen's d, tumor volume mm3",0.65,2,39,78,0.8089,100,200,310,62000,24180,37820,61.0
+7,"In vivo tumor volume, low-dose arm vs vehicle",In vivo efficacy,t_test,Cohen's d,0.5,2,64,128,0.8015,100,200,310,62000,39680,22320,36.0
+8,"Protease Y inhibition, optimized cmpd vs DMSO",Enzyme inhibition,t_test,Cohen's d,1.3,2,11,22,0.8263,100,200,42,8400,924,7476,89.0
+9,"Ion channel hERG counter-screen, cmpd vs vehicle",Safety/hERG,t_test,"Cohen's d, % block",0.65,2,39,78,0.8089,100,200,75,15000,5850,9150,61.0
+10,"Microsomal stability, formulation A vs B",ADME,t_test,"Cohen's d, % remaining at 30min",0.45,2,79,158,0.8026,100,200,65,13000,10270,2730,21.0
+11,"PK exposure (AUC), new salt form vs free base",ADME/PK,t_test,"Cohen's d, AUC",0.52,2,60,120,0.8065,100,200,280,56000,33600,22400,40.0
+12,"Off-target CYP3A4 inhibition, lead vs control",Safety/DDI,t_test,"Cohen's d, % inhibition",0.38,2,110,220,0.8012,100,200,55,11000,12100,-1100,-10.0
+13,"Kinase X dose-response, 4-arm (vehicle+3 doses)",Enzyme inhibition,anova,"Cohen's f, % inhibition across doses",0.35,4,94,376,0.8049,150,600,42,25200,15792,9408,37.33
+14,"GPCR-7 dose-response, 5-arm titration",Receptor binding,anova,Cohen's f,0.28,5,158,790,0.8028,150,750,58,43500,45820,-2320,-5.33
+15,"Cell viability dose-response, 6-arm titration",Cell viability,anova,Cohen's f,0.22,6,271,1626,0.8007,150,900,18,16200,29268,-13068,-80.67
+16,"In vivo efficacy dose-response, 4-arm study",In vivo efficacy,anova,"Cohen's f, tumor volume",0.32,4,111,444,0.8022,150,600,310,186000,137640,48360,26.0
+17,"Protease Y dose-response, 3-arm range-finder",Enzyme inhibition,anova,Cohen's f,0.45,3,51,153,0.8027,150,450,42,18900,6426,12474,66.0
+18,"Formulation comparison, 4 excipient blends",ADME,anova,"Cohen's f, % dissolution",0.3,4,126,504,0.8032,150,600,65,39000,32760,6240,16.0
+19,"hERG dose-response, 5-arm safety margin study",Safety/hERG,anova,Cohen's f,0.25,5,196,980,0.8005,150,750,75,56250,73500,-17250,-30.67
+20,"PK dose-proportionality, 4-dose cassette",ADME/PK,anova,"Cohen's f, AUC",0.28,4,144,576,0.803,150,600,280,168000,161280,6720,4.0
+21,"Primary HTS hit-rate, library A vs library B",Screening,proportion,"hit-rate proportion, p1 vs p2",-0.2565,2,239,478,0.8005,300,600,6,3600,2868,732,20.33
+22,"Confirmatory screen hit-rate, singlicate vs duplicate protocol",Screening,proportion,hit-rate proportion,-0.2508,2,250,500,0.8008,300,600,9,5400,4500,900,16.67
+23,"Responder rate, treated vs vehicle (binary efficacy)",In vivo efficacy,proportion,responder proportion,-0.4337,2,84,168,0.8025,300,600,310,186000,52080,133920,72.0
+24,"Solubility pass-rate, new salt screen vs legacy form",ADME,proportion,pass-rate proportion,-0.3113,2,162,324,0.8002,300,600,25,15000,8100,6900,46.0
